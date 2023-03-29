@@ -1,0 +1,15 @@
+#members{
+  margin-top: -4%;
+  margin-bottom: 2%;
+}
+h1{
+  text-align: center;
+}
+.descripcion{
+  margin-top: 2%;
+  font-size: larger;
+}
+iframe{
+  width: 100%;
+  height: 800px;
+}

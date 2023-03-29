@@ -1,0 +1,9 @@
+#nav-dark{
+  background-color: black;
+  margin-top: 2%;
+}
+#nav-dark p{
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
