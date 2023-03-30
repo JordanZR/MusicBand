@@ -1,0 +1,25 @@
+#footer{
+  margin-top: 5%;
+  background-color:  #0047b3;
+  height: 200px;
+}
+#headers a{
+  text-decoration: none;
+  color: white;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+#items a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
+#items img{
+  width: 2em;
+}
+#imagenesRedes{
+  margin-top: 2em;
+}
