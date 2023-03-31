@@ -1,0 +1,15 @@
+[{
+  "name": "Luna",
+  "src": "./assets/Luna.mp3",
+  "img": "https://i.scdn.co/image/ab67616d0000b2739abba2e4a7600af6c16988a9"
+},{
+  "name": "Rue",
+  "src": "./assets/Rue.mp3",
+  "img": "https://images.rapgenius.com/56f3f8c4a314da0b61f6262e9c13e3db.320x320x1.jpg"
+},
+  {
+    "name": "Poli",
+    "src": "./assets/Poli.mp3",
+    "img": "https://images.genius.com/8a3b7fd3abc8de88fc17c82772829296.1000x1000x1.png"
+  }
+]
