@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { IndexComponent } from './index/index.component';
 import { FooterComponent } from './footer/footer.component';
 import { AlbumesComponent } from './albumes/albumes.component';
+import { MerchComponent } from './merch/merch.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AlbumesComponent } from './albumes/albumes.component';
     NavComponent,
     IndexComponent,
     FooterComponent,
-    AlbumesComponent
+    AlbumesComponent,
+    MerchComponent
   ],
   imports: [
     BrowserModule,
