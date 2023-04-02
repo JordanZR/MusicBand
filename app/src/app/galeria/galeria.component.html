@@ -1,0 +1,15 @@
+<app-nav></app-nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-2"></div>
+    <img id="principalPhoto" class="col-8" src="{{principalPhoto.img}}">
+    <div class="col-2"></div>
+    <div id="galeriaPack" class="col-4" *ngFor="let photo of photos">
+      <input (click)="pickImg(photo)" type="image" id="imgGaleria" class="img-fluid" src="{{photo.img}}">
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+

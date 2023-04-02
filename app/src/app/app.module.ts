@@ -9,6 +9,7 @@ import { IndexComponent } from './index/index.component';
 import { FooterComponent } from './footer/footer.component';
 import { AlbumesComponent } from './albumes/albumes.component';
 import { MerchComponent } from './merch/merch.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MerchComponent } from './merch/merch.component';
     IndexComponent,
     FooterComponent,
     AlbumesComponent,
-    MerchComponent
+    MerchComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
