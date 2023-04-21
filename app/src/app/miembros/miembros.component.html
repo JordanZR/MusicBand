@@ -1,0 +1,28 @@
+<app-nav></app-nav>
+
+<div class="container">
+  <div *ngFor="let member of members; index as i" class="miembros">
+    <div class="row">
+      <div class="col">
+        <h1>{{member.nombre}}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="i==0 || i ==2" class="col-5">
+        <img src="{{member.img}}">
+      </div>
+      <div *ngIf="i==1 || i ==3" class="col-7">
+        <p>{{member.descripcion}}</p>
+      </div>
+      <div *ngIf="i==0 || i ==2" class="col-7">
+        <p>{{member.descripcion}}</p>
+      </div>
+      <div *ngIf="i==1 || i ==3" class="col-5">
+        <img src="{{member.img}}">
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>
+

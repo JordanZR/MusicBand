@@ -1,0 +1,13 @@
+.miembros h1{
+  margin-top: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.miembros img{
+  width: 100%;
+  height: 16em;
+}
+.miembros p{
+  font-size: larger;
+}
