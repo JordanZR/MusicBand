@@ -11,6 +11,7 @@ import { AlbumesComponent } from './albumes/albumes.component';
 import { MerchComponent } from './merch/merch.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { MiembrosComponent } from './miembros/miembros.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MiembrosComponent } from './miembros/miembros.component';
     AlbumesComponent,
     MerchComponent,
     GaleriaComponent,
-    MiembrosComponent
+    MiembrosComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

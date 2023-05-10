@@ -5,13 +5,15 @@ import {AlbumesComponent} from "./albumes/albumes.component";
 import {MerchComponent} from "./merch/merch.component";
 import {GaleriaComponent} from "./galeria/galeria.component";
 import {MiembrosComponent} from "./miembros/miembros.component";
+import {ContactoComponent} from "./contacto/contacto.component";
 
 const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'albumes', component: AlbumesComponent},
   {path: 'merch', component: MerchComponent},
   {path:'galeria', component: GaleriaComponent},
-  {path: 'miembros', component: MiembrosComponent}
+  {path: 'miembros', component: MiembrosComponent},
+  {path: 'contacto', component: ContactoComponent}
 ];
 
 @NgModule({
