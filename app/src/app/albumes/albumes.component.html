@@ -1,5 +1,5 @@
 <app-nav></app-nav>
-<div class="container">
+<div class="container" id="songsTabletPC">
 
   <div class="row">
 
@@ -15,7 +15,22 @@
     </div>
 
   </div>
-
 </div>
 
+<div class="container" id="songsSmartPhone">
+
+  <div class="row">
+    <div id="albumCover" *ngFor="let song of songs">
+      <img id="imgAlbum" class="mx-auto d-block" src="{{song.img}}">
+      <div class="row text-center" id="playBtn">
+        <div class="col-2"></div>
+        <button (click)="playAudio(song.src)" type="button" class="col-3 btn btn-outline-primary">Play</button>
+        <div class="col-2"></div>
+        <button (click)="pauseAudio()" type="button" class="col-3 btn btn-outline-secondary">Pause</button>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
 <app-footer></app-footer>

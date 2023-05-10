@@ -7,3 +7,25 @@
 #playBtns{
   margin-top: 2em;
 }
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  /* Estilos para tablet */
+
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
+  /* Estilos para smartphone */
+  #songsTabletPC{
+    display: none;
+  }
+  #imgAlbum{
+    width: 75%;
+  }
+  #albumCover{
+    margin-top: 2em;
+  }
+  #playBtn{
+    margin-top: 2em;
+  }
+
+}
