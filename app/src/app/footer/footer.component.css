@@ -21,5 +21,37 @@
   width: 2em;
 }
 #imagenesRedes{
-  margin-top: 2em;
+  margin-top: 0.5em;
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  /* Estilos para tablet */
+
+  #nav-dark{
+    display: none;
+  }
+  #footer{
+    background-color: black;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
+
+  /* Estilos para smartphone */
+
+  #footer{
+    display: none;
+  }
+  #nav-dark{
+    background-color: black;
+    margin-top: 2%;
+  }
+  #nav-dark a{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    z-index: 1;
+  }
 }
