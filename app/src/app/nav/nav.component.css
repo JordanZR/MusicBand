@@ -10,3 +10,32 @@
   text-decoration: none;
   z-index: 1;
 }
+
+@media (min-width: 600px) and (max-width: 1199px) {
+  /* Estilos para tablet */
+  #nav-dark {
+    background-color: #880061;
+  }
+
+  #nav-dark a {
+    /* Agrega los estilos específicos para los enlaces en tablet aquí */
+  }
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
+  /* Estilos para smartphone */
+  #nav-dark {
+    background-color: #5300e8;
+  }
+
+  #nav-dark a {
+    /* Agrega los estilos específicos para los enlaces en smartphone aquí */
+  }
+
+  #miembros{
+    display: none;
+  }
+  #contacto{
+    display: none;
+  }
+}
