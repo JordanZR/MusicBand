@@ -11,3 +11,26 @@
 .miembros p{
   font-size: larger;
 }
+
+
+@media (min-width: 1200px){
+  /* Estilos para tablet */
+  #miembrosSmartPhoneTablet{
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 1199px) {
+  /* Estilos para smartphone */
+  #miembrosPC{
+    display: none;
+  }
+  #nombreMiembro{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  #foto{
+    margin-bottom: 2em;
+  }
+}

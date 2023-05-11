@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 
-<div class="container">
+<div class="container" id="miembrosPC">
   <div *ngFor="let member of members; index as i" class="miembros">
     <div class="row">
       <div class="col">
@@ -20,6 +20,20 @@
       <div *ngIf="i==1 || i ==3" class="col-5">
         <img src="{{member.img}}">
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="miembrosSmartPhoneTablet">
+  <div *ngFor="let member of members">
+     <div class="row">
+        <h1 id="nombreMiembro" class="text-center">{{member.nombre}}</h1>
+     </div>
+    <div class="row">
+        <img id="foto" src="{{member.img}}">
+    </div>
+    <div class="row">
+        <p>{{member.descripcion}}</p>
     </div>
   </div>
 </div>
