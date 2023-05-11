@@ -12,3 +12,22 @@
 #principalPhoto{
   margin-top: 2em;
 }
+
+@media (min-width: 1200px) {
+  /* Estilos para tablet */
+
+  #galerySmartPhoneTablet{
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 1199px) {
+  /* Estilos para smartphone */
+
+  #galeryPC{
+    display: none;
+  }
+  #galerySmartPhoneTablet img{
+    margin-top: 2em;
+  }
+}

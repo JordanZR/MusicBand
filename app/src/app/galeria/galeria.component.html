@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 
-<div class="container">
+<div class="container" id="galeryPC">
   <div class="row">
     <div class="col-2"></div>
     <img id="principalPhoto" class="col-8" src="{{principalPhoto.img}}">
@@ -8,6 +8,12 @@
     <div id="galeriaPack" class="col-4" *ngFor="let photo of photos">
       <input (click)="pickImg(photo)" type="image" id="imgGaleria" class="img-fluid" src="{{photo.img}}">
     </div>
+  </div>
+</div>
+
+<div class="container" id="galerySmartPhoneTablet">
+  <div class="row">
+      <img *ngFor="let photo of photos" class="img-fluid" src="{{photo.img}}">
   </div>
 </div>
 
