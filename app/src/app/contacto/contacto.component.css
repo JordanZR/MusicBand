@@ -1,17 +1,19 @@
-#contacto{
-  padding-bottom: 5%;
-}
-
-#contacto h1{
-  text-align: center;
-  padding-top: 2%;
-}
-
-#contacto img{
-  height: 40%;
-  margin-top: 4%;
-}
 
 #enviar{
-  margin-top: -6%;
+  margin-top: 1em;
+}
+
+#indicacionesContacto{
+  display: none;
+}
+
+@media (min-width: 360px) and (max-width: 991px) {
+  /* Estilos para smartphone */
+
+  #indicacionesContacto{
+    margin-bottom: 1em;
+  }
+  #enviar{
+    margin-top: 1em;
+  }
 }
