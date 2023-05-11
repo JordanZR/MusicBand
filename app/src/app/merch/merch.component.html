@@ -1,5 +1,5 @@
 <app-nav></app-nav>
-<div class="container">
+<div class="container" id="merchPC">
 
   <div class="row">
 
@@ -12,6 +12,29 @@
         <p class="col">{{merch.price | currency}}</p>
       </div>
       <div class="row text-center" id="btns">
+        <div class="col-4"></div>
+        <button type="button" class="col-4 btn btn-outline-primary">Comprar</button>
+        <div class="col-4"></div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="container" id="merchSmartPhoneTablet">
+
+  <div class="row">
+
+    <div *ngFor="let merch of merchs">
+      <img class="img-fluid" src="{{merch.img}}">
+      <div class="row text-center">
+        <p class="col">{{merch.name}}</p>
+      </div>
+      <div class="row text-center">
+        <p class="col">{{merch.price | currency}}</p>
+      </div>
+      <div class="row text-center">
         <div class="col-4"></div>
         <button type="button" class="col-4 btn btn-outline-primary">Comprar</button>
         <div class="col-4"></div>
